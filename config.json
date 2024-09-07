@@ -1,30 +1,13 @@
 {
-  "version": "2.0",
-  "projectName": "Trolley Tracker App",
-  "managers": ["Manager1", "Manager2"],
-  "milestones": {
-    "Milestone #1": {
-      "startDate": "2024-01-15",
-      "endDate": "2024-02-09",
-      "projectedGroupGrade": 100.0
-    },
-    "Milestone #2": {
-      "startDate": "2024-02-12",
-      "endDate": "2024-03-08",
-      "projectedGroupGrade": 100.0
-    },
-    "Milestone #3": {
-      "startDate": "2024-03-11",
-      "endDate": "2024-04-05",
-      "projectedGroupGrade": 100.0
+  "organization": "uprm-inso4116-2024-2025-s1",
+  "teams": {
+    "semester-project-trolley-tracker-app": {
+      "managers": ["Yahid", "Gabriel"],
+      "milestone": "Milestone #1",
+      "milestoneGrade": 100.0
     }
   },
-  "lectureTopicTaskQuota": 0,
-  "countOpenIssues": false,
-  "teams": {
-    "team1": {
-      "members": ["Member1", "Member2", "Member3"],
-      "managers": ["Manager1"]
-    }
-  }
+  "lectureTopicTaskQuota": 4,
+  "milestoneStartsOn": "2024-01-15",
+  "milestoneEndsOn": "2024-01-15"
 }
