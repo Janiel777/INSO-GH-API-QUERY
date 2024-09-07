@@ -1,8 +1,16 @@
 {
   "version": "2.0",
   "projectName": "Trolley Tracker App",
-  "organization": "nombre_de_tu_organizacion",
+  "organization": "uprm-inso4116-2024-2025-s1",
   "managers": ["Manager1", "Manager2"],
+  "teams": {
+    "semester-project-trolley-tracker-app": {
+      "managers": ["Manager1", "Manager2"],
+      "milestoneStartDate": "2024-01-15",
+      "milestoneEndDate": "2024-02-09",
+      "MilestoneGrade": 100.0
+    }
+  },
   "milestones": {
     "Milestone #1": {
       "startDate": "2024-01-15",
