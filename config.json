@@ -1,6 +1,7 @@
 {
   "version": "2.0",
   "projectName": "Trolley Tracker App",
+  "organization": "nombre_de_tu_organizacion",
   "managers": ["Manager1", "Manager2"],
   "milestones": {
     "Milestone #1": {
