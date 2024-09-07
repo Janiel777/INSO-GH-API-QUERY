@@ -3,15 +3,10 @@
   "milestoneStartsOn": "2024-01-01",
   "milestoneEndsOn": "2024-02-01",
   "teams": {
-    "team1": {
+    "semester-project-trolley-tracker-app": {
       "managers": ["Manager1", "Manager2"],
       "milestone": "Milestone Name",
       "milestoneGrade": 100.0
-    },
-    "team2": {
-      "managers": ["Manager3", "Manager4"],
-      "milestone": "Milestone Name",
-      "milestoneGrade": 90.0
     }
   }
 }
