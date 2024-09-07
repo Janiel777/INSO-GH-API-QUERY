@@ -151,7 +151,7 @@ def getTeamMetricsForMilestone(
     while hasAnotherPage:
         response: dict = run_graphql_query(get_team_issues, params)
         projects: list[dict] = response["data"]["organization"]["projectsV2"]["nodes"]
-        project = next(filter(lambda x: x["title"] == team, projects), None)
+        project = next(filter(lambda x: x["title"] == "Trolley Tracker App", projects), None)
         if not project:
             logger.critical(
                 "Project not found in org. Likely means the project board doesn't share the same name as the team."
